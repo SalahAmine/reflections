@@ -16,6 +16,8 @@ contains no bug, I can also diff the changes between the buggy and the last non 
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
+de
+
 #Git command review
 
 
