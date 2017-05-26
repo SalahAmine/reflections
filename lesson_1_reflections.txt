@@ -1,0 +1,46 @@
+when we use diff between two files of ocde. we can see what are
+the new lines that we added and the old ones we deleted, so a bug can  potentially come from a typo in the new lines or an earase of old ones
+
+viewing the first minimal version of others programs help me to understand the main functions of that program
+see how the prog has evoluated 
+
+making manual commits would be problematic if you work in team, each indivudual will have a slightly diff meaning of independent logical change
+
+in some situation some files are related to each other, one change in a file requires a modificaion on the other related file too. Since it is drelated to one logical change, it would be useful to commit the set of changed files in one commit 
+
+ 
+How might using version control make you more confident to make changes that could break something?
+
+I can make changes on my code commit it and if I introduced a bug, I can retrun back to the previous commit taht 
+contains no bug, I can also diff the changes between the buggy and the last non buggy version to see where the bug might have occured
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+#Git command review
+
+
+# see whether git is installed
+git --verision
+
+Compare two commits, printing each line that is present in one commit but not the other.
+
+git diff will do this. It takes two arguments - the two commit ids to compare.
+
+Make a copy of an entire Git repository, including the history, onto your own computer., cloning is not just copying data
+
+git clone will do this. It takes one argument - the url of the repository to copy.
+
+Temporarily reset all files in a directory to their state at the time of a specific commit.
+
+git checkout will do this. It takes one argument - the commit ID to restore.
+
+Show the commits made in this repository, starting with the most recent.
+
+git log will do this. It doesn't take any arguments.
+
+
+
+untracked files = fichiers non suivis 
+
+
+
